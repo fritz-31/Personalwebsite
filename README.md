@@ -11,6 +11,31 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+ .centered{
+     font-size:large;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:Sofia,sans serif;
+ }
+ .next{
+     color:black;
+ }
+.next img{
+    border-radius:50%;
+}
+.footer{
+    color:white;
+    background-color:darkblue;
+}
+  </style>
   </head>
         <body>
         <div class="container-fluid">
@@ -19,7 +44,7 @@
             <h1 align="center"> I'M RITWIK</h1>
             <h2 align="center"> a programmer;</h2>
             </div>
-
+          </div>
             <div class="next">
             <img src="C:\Users\Ritwik Srivastava\Pictures\profpic.png" width="15%" height="20%" alt="Avatar" style="border-radius:50%; margin-top:50px"> 
                 <h3 style="margin-top: 60px; color:brown" >HELLO !</h3>
